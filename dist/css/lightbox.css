@@ -167,7 +167,7 @@ body:after {
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  /*width: 85%;*/
   float: left;
   text-align: left;
   line-height: 1.1em;
@@ -207,4 +207,48 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.lb-data .lb-prev {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url(../images/prev_small.png) top right no-repeat;
+    text-align: right;
+    outline: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.lb-data .lb-prev:hover {
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.lb-data .lb-next {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url(../images/next_small.png) top right no-repeat;
+    text-align: right;
+    outline: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.lb-data .lb-next:hover {
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
 }
